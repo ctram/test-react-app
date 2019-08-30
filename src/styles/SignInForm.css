@@ -1,0 +1,53 @@
+.Sign-In-Form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.column-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border-style: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group .radio-group {
+  flex-direction: row;
+  font-size: .8rem;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.radio-group input {
+  margin-right: 5px;
+}
+
+
+.radio-group label {
+  margin-bottom: 10px;
+}
+
+.form-group legend {
+  margin-bottom: 20px;
+}
+
+.radio-option {
+  margin-bottom: 10px;
+}
